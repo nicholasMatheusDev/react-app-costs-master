@@ -1,0 +1,49 @@
+.projectDatils {
+    padding: 2rem;
+
+}
+
+.projectDatils h1,
+.projectDatils h2,
+.projectDatils p {
+    margin-bottom: 0.5rem;
+}
+
+.projectDatils h1 {
+    background: #222;
+    color: #ffbb33;
+    padding: 0.4rem;
+}
+
+.projectDatils span {
+    font-weight: bold;
+}
+
+.detailsContainer,
+.serviceFormContainer {
+    border-bottom: 1px solid #7a7a7a;
+    margin-bottom: 1.2rem;
+    padding-bottom: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background: #222;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    max-height: 40px;
+    border: none;
+ }
+ 
+ .btn:hover {
+     color: #ffbb33;
+ }
+
+ .projectInfo {
+    width: 100%;
+ }
